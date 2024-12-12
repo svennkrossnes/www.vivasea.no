@@ -4,7 +4,7 @@ import './Home.css';
 function Home() {
     return (
         <div className="home">
-            <h1>Welcome to Vivasea</h1>
+            <h1>Welcome to Vivasea2</h1>
             <p>Aquaculture and technology innovation.</p>
         </div>
     );

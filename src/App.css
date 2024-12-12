@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #094171;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #4AEAD6;
+}
+
+header a {
+  color: #094171;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #4AEAD6;
+}

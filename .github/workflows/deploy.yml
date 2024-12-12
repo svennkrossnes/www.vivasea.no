@@ -31,8 +31,8 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: 'eu-north-1'  # Replace with your AWS region7
+          aws-region: 'eu-north-1'  # Replace with your AWS region8
 
       - name: Sync files to S3
         run: |
-          aws s3 sync ./build/ s3://your-s3-bucket-name --delete  # Removed the --acl public-read flag
+          aws s3 sync ./build/ s3://www.vivasea.no --delete  # Removed the --acl public-read flag

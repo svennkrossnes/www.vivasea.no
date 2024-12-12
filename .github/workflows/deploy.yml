@@ -35,4 +35,4 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync ./build/ s3://www.vivasea.no --acl public-read --delete
+          aws s3 sync ./build/ s3://your-s3-bucket-name --delete  # Removed the --acl public-read flag
